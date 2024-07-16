@@ -1,0 +1,18 @@
+<div class="content">
+
+  <div class="container p-3">
+
+  <h3 class="my-2">-Transactions Chart</h3>
+  <select class="form-select mt-3" (change)="OnchangeCustomer($event)" aria-placeholder="CustomerName">
+      <option value="">Select Customer to show the graph</option>
+      <option *ngFor="let item of CustomerList" [value]="item.id"> {{item.name}}</option>
+  </select>
+
+   <div class="row p-3">
+      <div class="col-lg-6">
+          <canvas id="piechart"></canvas>
+      </div>
+
+   </div>
+  </div>
+</div>

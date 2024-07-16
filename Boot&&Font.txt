@@ -1,0 +1,15 @@
+npm i bootstrap 
+
+npm i @fortawesome/fontawesome-free
+
+
+CSS:
+
+
+"./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+ "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+
+
+JS:
+"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
